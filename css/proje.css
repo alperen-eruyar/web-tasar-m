@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../anasayfa.png");
+    font-family: 'Cinzel', serif;   
+}
+
+.container{
+      display: flex; 
+     justify-content: center;  
+     align-items: center; 
+     width: 100%;
+    height: 100%; 
+
+}
+.oyun1{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    line-height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 7px;
+    border-radius: 15px;
+      transition: 0.5s ease;  
+}
+.oyun1:hover{
+     transform: scale(1.2); 
+     box-shadow: 0 0 12px purple; 
+    border: 1px solid red;
+}
+
+.resim{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+ .resim img{
+      
+     border-radius: 15px; 
+ }
+
+
+
+
+
+
+A:link {
+   
+     text-decoration: none; 
+}
+
+.karakter h1{
+    text-align: center;
+    font-style: italic;
+    color: rgb(5, 67, 128);
+
+}
+
+
+.gorus{
+    position: absolute;
+    bottom: 20%;
+    background: cornflowerblue;
+    padding: 10px;
+    font-size: 20px;
+     border-radius: 5px; 
+}
+.gorus a{
+    color:white;
+}
+.gorus:hover{
+     scale: 1.2; 
+     transition: ease 0.35s; 
+}
+
+
